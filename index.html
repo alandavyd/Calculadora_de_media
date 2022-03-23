@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Calculadora de media</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="page-title">Calculadora de media</h1>
+      <p class="page-subtitle">Descubra sua media escolar!</p>
+      <img src="" alt="" class="page-logo" />
+      <img src="" alt="" />
+      <h2>Digite suas notas</h2>
+      <input
+        type="number"
+        id="primeiraNota"
+        placeholder="Primeiro Bimestre"
+        size="2"
+      /><br />
+      <input
+        type="number"
+        id="segundaNota"
+        placeholder="Segundo Bimestre"
+        size="2"
+      /><br />
+      <input
+        type="number"
+        id="terceiraNota"
+        placeholder="Terceiro Bimestre"
+        size="2"
+      /><br />
+      <input
+        type="number"
+        id="quartaNota"
+        placeholder="Quarto Bimestre"
+        size="2"
+      /><br />
+      <button type="submit" onclick="calcular()">Calcular Media</button>
+      <p id="resultadoFinal" class="resultado"></p>
+
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>
